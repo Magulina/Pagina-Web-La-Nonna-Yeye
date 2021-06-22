@@ -1,0 +1,110 @@
+:root{
+    --bordo: #9d5561; 
+    --fondo: #fff;  
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.contbotones{
+    width: 90%;
+    margin:auto;
+}
+
+body{
+
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: var(--fondo);
+}
+
+header {
+    padding: 20px 0;  
+}
+
+header .contbotones{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: black;
+
+}
+
+.contbotones form{
+    width: 30%;
+    border:black 1px solid;
+    border-radius: 15px;
+}
+
+#barritaBuscar{
+    margin-left: 10px;
+    width: 75%;
+}
+
+#btnbuscar{
+    margin: 5px 0px 5px 5px;
+}
+
+header nav{
+
+    width: 30%;
+    background: var(--fondo);
+    box-shadow: none;
+
+}
+
+header nav a{
+    margin-left: 10px;
+    color: #000
+    
+}
+
+header nav a:hover{
+    color:#888888
+}
+
+#logo{
+    width: 220px;
+    height: auto;
+    clear: both;
+}
+
+.footer{
+    clear: both;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    height: 50px;
+
+}
+
+.botoncito{
+    clear: both;
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoncito :hover{
+    background-color: #888888; 
+
+}
